@@ -7,13 +7,6 @@
     <packaging>jar</packaging>
     <version>0.2.0</version>
 
-    <distributionManagement>
-    	<repository>
-        	<id>nexus</id>
-        	<url>http://host.docker.internal:8081/repository/mvn-java/</url>
-    	</repository>
-    </distributionManagement>
-
     <!-- tag::joda[] -->
      <properties>
            <java.version>1.8</java.version>
